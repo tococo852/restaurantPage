@@ -1,0 +1,44 @@
+.menu{
+    display: grid;
+    grid-template-columns: repeat(2,minmax(200px,500px));
+    grid-auto-rows: minmax(0, 150px);
+    align-items: center;
+    justify-content: center;
+    padding: 5rem;
+    gap: 3rem;
+}
+
+.menuCard{
+    border: 1px grey solid;
+    display: flex;
+    width: 25vw;
+    gap: 70px;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+.menuImage>img{
+    max-height: 75%;
+    max-width: 75%;
+    display: block;
+    padding-left: 2px;
+}
+.itemText{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.itemName{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.itemPrice{
+    font-size: 1rem;
+    font-style: italic;
+}
+.itemDescription{
+    padding-top: 10px;
+    flex-basis: 50px;
+    
+}
