@@ -12,7 +12,6 @@ Here at RestoSaurio we bring the most prehistoric dishes, just like the ancestor
 */
 
 content=document.getElementById('content')
-console.log(content)
 const makeTitle=()=>{
     let title=document.createElement('div')
     title.classList.add('title')

@@ -1,8 +1,23 @@
 .about{
     display: flex;
+
 }
-.aboutImg{}
-.aboutUs{}
-.aboutUsTitle{}
-.aboutUsInfo{}
-.aboutUsDir{}
+.aboutImg{
+    
+}
+.aboutUs{
+    flex-basis: 45vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+.aboutUsTitle{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.aboutUsInfo{
+    font-size: 1.4rem;
+}
+.aboutUsDir{
+    font-size: 1.2rem;
+}

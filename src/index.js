@@ -32,13 +32,7 @@ document.addEventListener('click', (e)=>{
 
    window.addEventListener("DOMContentLoaded", function() {
         // on load, sethome should run by itself so the page is not blank
-        let homeButton= document.createElement('button')
-        homeButton.textContent= 'Home'
-        homeButton.classList.add('mainButton')
-        homeButton.id='home'
-
-        let head= document.getElementsByClassName('header')
-        console.log(homeButton)
-        //setHome()
+        
+        setHome()
 
     }, false);
